@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+         margin: 0;
+      }
+       
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            
+            align-items: center;
+            padding: 20px;
+            background-color: rgb(235, 234, 232);
+            position: fixed;
+            width: 98vw;
+            z-index: 10;
+            
+         }
+         nav{
+            word-spacing: 30px;
+        
+         }
+         .mainwindow{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+         }
+         h1{
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            
+         }
+         mark{
+            background-color: grey;
+         }
+         #mainimage{
+            width: 100%;
+            height: 100vh;
+         }
+         .container{
+            
+            
+            margin-left:30px ;
+            margin-right:30px ;
+        }
+        img{
+            width: 95%;
+            height: 30vh;
+            margin: 10px;
+        }
+        .child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8{
+            position: relative;
+            display: inline-block;
+        }
+        
+        
+        .child1 p,.child2 p,.child3 p,.child4 p,.child5 p,.child6 p,.child7 p,.child8 p{
+            position: absolute;
+            top: 0%;
+            margin: 10px;
+            color: white
+            
+            
+        }
+        .color{
+            background-color: black;
+            padding: 5px;
+        }
+       h2{
+        margin: 10px;
+        margin-bottom: 70px;
+        
+        }
+        a:hover{
+         color: blueviolet;
+         background-color: rgb(196, 255, 204);
+        }
+        .logo:hover{
+         color: blue;
+         background-color: aqua;
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">BR architectures</div>
+        <nav>
+            <a href="#projects">projects</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+        </nav>
+    </div>
+    <div class="mainwindow">
+        <img src="img.jpg" alt="image" id="mainimage">
+        <h1><mark>BR</mark> architects</h1>
+    </div><br>
+    <div class="container">
+      <h2 id="projects">Projects</h2>
+      <div class="child1">
+        <img src="img1.jpg" alt="">  
+        <p class="color">Summer house</p>
+      </div>
+      <div class="child2">
+          <img src="img2.jpg" alt="">  
+          <p class="color">Brick house</p>
+        </div>
+        <div class="child3">
+          <img src="img3.jpg" alt="">  
+          <p class="color">Renovated</p>
+        </div>
+        <div class="child4">
+          <img src="img4.jpg" alt="">  
+          <p class="color"> Barn house</p>
+        </div>
+        <div class="child5">
+          <img src="img5.jpg" alt="">  
+          <p class="color"> Summer house</p>
+        </div>
+        <div class="child6">
+          <img src="img6.jpg" alt="">  
+          <p class="color"> Brick house</p>
+        </div>
+        <div class="child7">
+          <img src="img7.jpg" alt="">  
+          <p class="color">Renovated</p>
+        </div>
+        <div class="child8">
+          <img src="img8.jpg" alt="">  
+          <p class="color">Barn house</p>
+        </div>
+  </div>
+</body>
+</html>
